@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER ClouDesire <dev@cloudesire.com>
+FROM buildpack-deps:trusty-curl
+MAINTAINER Tony.Shao
 
 # Install Oracle Java 8
 ENV JAVA_VER 8

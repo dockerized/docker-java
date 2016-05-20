@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER ClouDesire <dev@cloudesire.com>
+FROM buildpack-deps:trusty-curl
+MAINTAINER Tony.Shao
 
 # Install Oracle Java 6
 ENV JAVA_VER 6
